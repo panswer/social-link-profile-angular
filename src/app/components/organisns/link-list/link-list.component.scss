@@ -1,0 +1,10 @@
+.link_list-component {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    li:not(:first-child) {
+        margin-top: 0.8rem;
+    }
+}

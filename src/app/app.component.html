@@ -1,0 +1,25 @@
+<div class="main-component">
+    <div class="social-component">
+        <div class="photo">
+            <app-photo [alt]="img.alt" [src]="img.src"></app-photo>
+        </div>
+        <div class="name-component">
+            <app-title>
+                {{profile.name}}
+            </app-title>
+        </div>
+        <div class="address-component">
+            <app-sub-title>
+                {{profile.address}}
+            </app-sub-title>
+        </div>
+        <div class="description-component">
+            <app-text>
+                "{{profile.description}}"
+            </app-text>
+        </div>
+        <div class="social_list-component">
+            <app-link-list [list]="profile.socialMediaList"></app-link-list>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<ul class="link_list-component">
+    <li *ngFor="let link of list">
+        <app-link [href]="link.href">
+            {{link.title}}
+        </app-link>
+    </li>
+</ul>

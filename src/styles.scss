@@ -1,0 +1,28 @@
+:root {
+    /* Layout */
+    --screen-width-mobile: 375px;
+    --screen-width-desktop: 1440px;
+
+    /* Colors */
+    --color-green: hsl(75, 94%, 57%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey-1: hsl(0, 0%, 20%);
+    --color-grey-2: hsl(0, 0%, 12%);
+    --color-grey-3: hsl(0, 0%, 8%);
+
+    /* typography */
+    --typography-font-size: 14px;
+    --typography-font-weight-1: 700;
+    --typography-font-weight-2: 800;
+    --typography-font-weight-3: 900;
+}
+
+body {
+    margin: 0;
+    color: var(--color-white);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
